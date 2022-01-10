@@ -1,5 +1,5 @@
 name,image,price,link,desc
-SuperPunch,https://looneybits.github.io/projects/superpunch/images/icon.png,29.99,http://u3d.as/8zu,SuperPunch a fighting game.
+SuperPunch,https://looneybits.github.io/projects/superpunch/images/icon.png,29.99,https://www.lushybanton.com/product-page/lb-sliders,SuperPunch a fighting game.
 2D Parking Simulator,https://looneybits.github.io/projects/parkingsimulator/images/icon.png,25.95,http://u3d.as/jkP,Parking simulator.
 DiselGate The game,https://looneybits.github.io/projects/dieselgatethegame/images/icon.png,9.99,http://u3d.as/95D,Destroy mutant cars.
 SuperGoalKeeper,https://looneybits.github.io/projects/supergoalkeeper/images/icon.png,9.99,http://u3d.as/7Ur,A Soccer game.
