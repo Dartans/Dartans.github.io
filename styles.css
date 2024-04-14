@@ -1,74 +1,84 @@
 /* General Styles */
 body {
-    font-family: 'Arial', sans-serif; 
+    font-family: 'Roboto', sans-serif; /* A modern, clean font */
     margin: 0;
-    padding: 20px;
-    background-color: #f4f4f4;
+    padding: 30px;
+    background-color: #f8f9fa; 
     color: #333; 
 }
 
 .container {
     max-width: 960px;
     margin: 0 auto; 
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
 }
 
 /* Header Styles */
 header {
-    background-color: #fff;
-    padding: 20px 0;
+    padding: 30px 0;
     border-bottom: 1px solid #ddd; 
     text-align: center;
 }
 
 .profile-pic {
-    height: 150px;
-    width: 150px;
+    height: 180px;
+    width: 180px;
     border-radius: 50%;
+    margin-bottom: 10px; 
 }
 
 h1 {
-    margin-top: 10px; 
+    margin-top: 0;
+    color: #004E7C; /* A professional dark blue */
+    font-size: 2.2em; 
 }
 
 .subheading {
     font-style: italic;
+    color: #555; 
 }
 
 /* Main Content Styles */
 section {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
 }
 
-h2 {
-    color: #20639B; /* Example of a darker color for headings */
-}
-
+/* Skills Section Styling */
 ul {
-    list-style: disc; 
-    margin-left: 20px;
+  list-style: none; /* Remove default bullets */  
+  padding-left: 0;
+}
+
+ul li::before {
+  content: "\2713"; /* Adds a 'check' symbol */
+  color: #007bff; /* Blue */ 
+  font-weight: bold; 
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em; 
 }
 
 /* Contact and Button Styles */
 .button {
-    background-color: #20639B;
+    background-color: #007bff; /* Blue */ 
     color: #fff;
-    padding: 10px 20px;
+    padding: 15px 25px;
     border: none;
     border-radius: 5px;
     text-decoration: none;
+    transition: background-color 0.3s ease; /* For a hover effect */
 }
 
-.linkedin {
-    background-color: #0077B5; /* LinkedIn Blue */
+.button:hover {
+    background-color: #0056b3; /* Slightly darker on hover */
 }
 
 /* Footer Styles */
 footer {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 0.8em; 
+    color: #666; 
 }
