@@ -1,3 +1,3 @@
 Simple Business Card
 
-https://dartans.github.io/
+http://portfolio.gregm.ca/
