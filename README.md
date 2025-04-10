@@ -1,3 +1,3 @@
 Simple Business Card
 
-http://portfolio.gregm.ca/
+https://portfolio.gregm.ca/
